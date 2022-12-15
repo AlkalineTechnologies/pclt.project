@@ -1,0 +1,9 @@
+{
+    "WorkspaceData": {
+        "WorkspaceName":            "",  // Name given by the user to the workspace
+        "WorkspaceDescription":     "",  // Description given by the user to the workspace
+        "WorkspaceId":              "",  // ID that is assigned if you wish to share the workspace with other users through polarisHub
+        "WorkspaceAuthors":         [],  // The owner of the workspace, the user that created the workspace
+        "WorkspaceLabels":          []   // Labels that are assigned to the workspace, tags that can be used to filter the workspace
+    }
+}
