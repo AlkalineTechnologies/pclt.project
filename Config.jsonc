@@ -1,9 +1,14 @@
 {
-    "WorkspaceData": {
-        "WorkspaceName":            "",  // Name given by the user to the workspace
-        "WorkspaceDescription":     "",  // Description given by the user to the workspace
-        "WorkspaceId":              "",  // ID that is assigned if you wish to share the workspace with other users through polarisHub
-        "WorkspaceAuthors":         [],  // The owner of the workspace, the user that created the workspace
-        "WorkspaceLabels":          []   // Labels that are assigned to the workspace, tags that can be used to filter the workspace
+    "Project": {
+        "Name":            "",  // Name given by the user to the workspace
+        "Description":     "",  // Description given by the user to the workspace
+        "Type":            "",  // Is it an application or a library/module 
+        "Authors":         [],  // The owner of the workspace, the user that created the workspace
+        "Labels":          []   // Labels that are assigned to the workspace, tags that can be used to filter the workspace
+    },
+    // A realm is a network of repositories
+    "Realms": {
+        // url of the realm server
+        "URLS" : []
     }
 }
